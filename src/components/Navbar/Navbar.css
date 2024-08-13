@@ -1,0 +1,47 @@
+.navbar{
+    background-color: white !important;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+}
+.logo-container{
+    display:flex;
+    align-items: center;
+    gap:10px
+
+}
+.logo-container img{
+    width: 70px;
+}
+.title{
+    font-size: 38px !important;
+    font-weight: 800 !important;
+
+}
+.categories{
+    display: flex;
+    color: black;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-login-cart Button{
+    border-radius: 50px;
+    width: 100px;
+}
+.categories hr{
+    background-color: #ff4141;
+    height: 3px;
+    border-radius: 5px;
+}
+.categories:hover{
+    cursor: pointer;
+}

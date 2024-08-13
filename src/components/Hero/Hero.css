@@ -1,0 +1,30 @@
+.hero{
+    height: 100vh;
+    background:linear-gradient(180deg , #fde1ff , #e1ffea22  60%);
+    display: flex;
+    
+}
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 180px;
+    line-height: 1.1;
+
+   
+
+}
+.para{
+    color: #171717;
+    font-size: 80px;
+    font-weight: 700;
+
+}
+.hero-left Button{
+    width: 350px;
+    background-color: #ff4141;
+    color: white;
+    height: 50px;
+    font-size: 26px;
+}
